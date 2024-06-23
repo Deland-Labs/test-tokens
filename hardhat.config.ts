@@ -17,7 +17,11 @@ const config: HardhatUserConfig = {
     scrollSepoliaTest: {
       url: "https://sepolia-rpc.scroll.io/",
       accounts: [PRIVATE_KEY],
-    } 
+    },
+    avaxFuji: {
+      url: "https://rpc.ankr.com/avalanche_fuji",
+      accounts: [PRIVATE_KEY],
+    },
   },
 
   etherscan: {
