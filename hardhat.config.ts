@@ -22,6 +22,14 @@ const config: HardhatUserConfig = {
       url: "https://rpc.ankr.com/avalanche_fuji",
       accounts: [PRIVATE_KEY],
     },
+    bitLayerTestnet: {
+      url: "https://testnet-rpc.bitlayer.org",
+      accounts: [PRIVATE_KEY],
+    },
+    bscTest: {
+      url: "https://data-seed-prebsc-2-s1.bnbchain.org:8545",
+      accounts: [PRIVATE_KEY],
+    },
   },
 
   etherscan: {

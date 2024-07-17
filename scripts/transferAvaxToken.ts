@@ -12,7 +12,7 @@ const main = async () => {
   const tat2 = Erc20Test.attach(tat2Address) as Erc20Test;
 
   await tat1.transfer(destAddress, transferAmount);
-  //await tat2.transfer(destAddress, transferAmount);
+  await tat2.transfer(destAddress, transferAmount);
 };
 
 main();
