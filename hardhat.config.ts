@@ -14,6 +14,10 @@ const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {},
+    ethSepoliaTest: {
+      url: "https://eth-sepolia.api.onfinality.io/public",
+      accounts: [PRIVATE_KEY],
+    },
     scrollSepoliaTest: {
       url: "https://sepolia-rpc.scroll.io/",
       accounts: [PRIVATE_KEY],
