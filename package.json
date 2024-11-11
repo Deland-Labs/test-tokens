@@ -2,11 +2,11 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
     "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-ignition": "^0.15.0",
     "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
-    "@nomicfoundation/hardhat-verify": "^2.0.0",
-    "@nomicfoundation/hardhat-ignition": "^0.15.0",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
     "@nomicfoundation/ignition-core": "^0.15.0",
     "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
@@ -24,8 +24,11 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.1",
-		"@openzeppelin/contracts-upgradeable": "^5.0.1",
-		"@openzeppelin/hardhat-upgrades": "^3.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.1",
+    "@openzeppelin/hardhat-upgrades": "^3.0.2",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.3",
+    "bs58": "^6.0.0",
     "dotenv": "^16.4.5"
   }
 }
