@@ -15,18 +15,18 @@ async function getSignatures(address:any) {
 getSignatures(addressA);
 getSignatures(addressB);
 
-curl https://api.testnet.solana.com \
-  -X POST \
-  -H "Content-Type: application/json" \
-  -d '{
-    "jsonrpc": "2.0",
-    "id": 1,
-    "method": "getSignaturesForAddress",
-    "params": [
-      "EMtXdgJpEWmrkcK9snCYDB8QNR8j5mj9FbVVZBkfTckV",
-      {
-        "limit": 10
-      }
-    ]
-  }'
+// curl https://api.testnet.solana.com \
+//   -X POST \
+//   -H "Content-Type: application/json" \
+//   -d '{
+//     "jsonrpc": "2.0",
+//     "id": 1,
+//     "method": "getSignaturesForAddress",
+//     "params": [
+//       "EMtXdgJpEWmrkcK9snCYDB8QNR8j5mj9FbVVZBkfTckV",
+//       {
+//         "limit": 10
+//       }
+//     ]
+//   }'
 
